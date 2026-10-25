@@ -1,0 +1,50 @@
+body{
+    background-color: ORANGE;
+    padding: 20px;
+}
+div[lang="PAGINA-PRINCIPAL"]{
+    background-color: yellow;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+div[lang="PAGINAS"]{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+}
+div[lang="PAGINAS"] > h2 {
+    flex: 1;
+}
+h2[lang="INTRO"]{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+h2[lang="FUTB"]{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+h2[lang="AMOR"]{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+div[lang="CUADROS"]{
+    display: flex;
+    gap: 20px;
+}
+div[lang="AUTOR"]{
+    text-align: center;
+}
+img[lang="ONE"]{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+img[lang="TWO"]{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
